@@ -63,7 +63,7 @@ Error Handling:
 Implement try-except blocks in the Lambda function to handle potential errors.
 
 Input/Output structure:
-Input: Json object with a text key, and optional voiceId key.
+Input: JSON object with a text key, and optional voiceId key.
 
 Output: mp3 audio file.
 
