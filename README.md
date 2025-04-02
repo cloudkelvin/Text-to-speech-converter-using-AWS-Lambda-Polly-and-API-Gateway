@@ -1,6 +1,7 @@
 **Project: Text-to-Speech Converter with AWS Lambda, Polly, and API Gateway**
 
 
+
 **1. Introduction**
 
 **Project Overview:**
@@ -36,6 +37,7 @@ Python 3.9 was used for this project.
 
 
 
+
 **3. Setup and Configuration**
 
 **AWS Account Setup:**
@@ -52,6 +54,7 @@ Polly configuration is done within the lambda function code.
 
 **API Gateway Setup:**
 Create a REST API in API Gateway, create a resource and a POST method, and integrate it with the Lambda function.
+
 
 
 
@@ -76,10 +79,12 @@ Input: JSON object with a text key, and optional voiceId key.
 
 
 
+
 **5. Deployment**
 Deploy the Lambda function and API Gateway using the AWS Management Console or AWS CLI.
 Test the API endpoint with tools like Postman or Curl.
 "curl -X GET "https://jnp29j54je.execute-api.us-east-1.amazonaws.com/$default/TextToSpeechConverter?text=hello,%20this%20is%20a%20tutorial%20$default!" --output output.mp3"
+
 
 
 
@@ -92,9 +97,11 @@ Provide example code snippets on how to call the API from a web browser using Ja
 
 
 
+
 **7. Security Considerations**
 Use IAM roles with the least privilege principle.
 Enable API Gateway authorization if needed.
+
 
 
 
