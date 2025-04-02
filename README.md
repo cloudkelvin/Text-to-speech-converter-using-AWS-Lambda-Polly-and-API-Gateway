@@ -77,10 +77,12 @@ Test the API endpoint with tools like Postman or Curl.
 "curl -X GET "https://jnp29j54je.execute-api.us-east-1.amazonaws.com/$default/TextToSpeechConverter?text=hello,%20this%20is%20a%20tutorial%20$default!" --output output.mp3"
 
 
-**7. Usage**
+
+**6. Usage**
 Provide the API endpoint URL.
 Show example requests and responses in JSON format.
 Provide example code snippets on how to call the API from a web browser using Javascript.
+
 
 
 **7. Security Considerations**
@@ -88,8 +90,9 @@ Use IAM roles with the least privilege principle.
 Enable API Gateway authorization if needed.
 
 
-9. Troubleshooting
-Common errors: IAM permission issues, Lambda timeout, API Gateway configuration errors.
+
+**8. Troubleshooting**
+**Common errors:** IAM permission issues, Lambda timeout, API Gateway configuration errors.
 Use CloudWatch Logs to debug Lambda function execution.
 
 
