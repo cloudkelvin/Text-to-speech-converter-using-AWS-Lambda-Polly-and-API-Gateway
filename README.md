@@ -1,8 +1,8 @@
 **Project: Text-to-Speech Converter with AWS Lambda, Polly, and API Gateway**
 
-1. Introduction
+**1. Introduction**
 
-Project Overview:
+**Project Overview:**
 This project demonstrates how to build a serverless Text-to-Speech (TTS) converter using AWS Lambda, Polly, and API Gateway. Users can send text via an HTTP request, and the API returns an audio file of the spoken text.
 Purpose and Benefits:
 Provides a scalable and cost-effective solution for TTS functionality. Eliminates the need for dedicated servers—easy integration with web and mobile applications.
@@ -17,57 +17,57 @@ Provides a scalable and cost-effective solution for TTS functionality. Eliminate
 
 
 
-2. Technologies Used
+**2. Technologies Used**
 
-AWS Lambda:
+**AWS Lambda:**
 Serverless compute service that runs the TTS conversion logic.
 
-AWS Polly:
+**AWS Polly:**
 Service that converts text into lifelike speech.
 
-AWS API Gateway:
+**AWS API Gateway:**
 Creates a REST API endpoint to trigger the Lambda function.
 
-Programming Language:
+**Programming Language:**
 Python 3.9 was used for this project.
 
 
 
-3. Setup and Configuration
+**3. Setup and Configuration**
 
-AWS Account Setup:
+**AWS Account Setup:**
 Create an AWS account or log in to an existing one.
 
-IAM Roles and Permissions:
+**IAM Roles and Permissions:**
 Create an IAM role with permissions for Lambda to access Polly. Attach the AmazonPollyFullAccess policy to the role.
 
-Lambda Function Creation:
+**Lambda Function Creation:**
 Create a new Lambda function, select the appropriate runtime, and attach the created IAM role.
 
-Polly Configuration:
+**Polly Configuration:**
 Polly configuration is done within the lambda function code.
 
-API Gateway Setup:
+**API Gateway Setup:**
 Create a REST API in API Gateway, create a resource and a POST method, and integrate it with the Lambda function.
 
 
 
-4. Implementation Details
+**4. Implementation Details**
 
 Lambda Function and Python Code attached in the files
 
 
-API Gateway Integration:
+**API Gateway Integration:**
 Configure API Gateway to pass the request body to the Lambda function.
 
 
-Error Handling:
+**Error Handling:**
 Implement try-except blocks in the Lambda function to handle potential errors.
 
-Input/Output structure:
+**Input/Output structure:**
 Input: JSON object with a text key, and optional voiceId key.
 
-Output: mp3 audio file.
+**Output: mp3 audio file.**
 
 
 
