@@ -10,8 +10,8 @@ Provides a scalable and cost-effective solution for TTS functionality. Eliminate
 
 
 Architecture Diagram:
+![image](https://github.com/user-attachments/assets/e7d5bccd-4fd7-4fe9-9c2c-5d47d92cfeb6)
 
-![image](https://github.com/user-attachments/assets/e4713760-1132-48e8-ac3f-dbfa8c2f915a)
 
 
 
