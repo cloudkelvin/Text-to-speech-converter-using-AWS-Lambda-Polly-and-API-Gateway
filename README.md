@@ -1,4 +1,4 @@
-Project: Text-to-Speech Converter with AWS Lambda, Polly, and API Gateway
+**Project: Text-to-Speech Converter with AWS Lambda, Polly, and API Gateway**
 
 1. Introduction
 
@@ -9,7 +9,9 @@ Provides a scalable and cost-effective solution for TTS functionality. Eliminate
 
 
 
-Architecture Diagram:
+**Architecture Diagram:**
+
+
 ![image](https://github.com/user-attachments/assets/e7d5bccd-4fd7-4fe9-9c2c-5d47d92cfeb6)
 
 
@@ -69,19 +71,19 @@ Output: mp3 audio file.
 
 
 
-5. Deployment
+**5. Deployment**
 Deploy the Lambda function and API Gateway using the AWS Management Console or AWS CLI.
 Test the API endpoint with tools like Postman or Curl.
 "curl -X GET "https://jnp29j54je.execute-api.us-east-1.amazonaws.com/$default/TextToSpeechConverter?text=hello,%20this%20is%20a%20tutorial%20$default!" --output output.mp3"
 
 
-7. Usage
+**7. Usage**
 Provide the API endpoint URL.
 Show example requests and responses in JSON format.
 Provide example code snippets on how to call the API from a web browser using Javascript.
 
 
-7. Security Considerations
+**7. Security Considerations**
 Use IAM roles with the least privilege principle.
 Enable API Gateway authorization if needed.
 
